@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir-Regular.ttf");
+}
+:root {
+  --white: #fff;
+  --black-dark: #333;
+  --black-light: #4a5a67;
+  --green-extra-dark: #16ad6e;
+  --green-dark: #4ecdc4;
+  --green-light: #f7fff7;
+  --yellow: #ffe66d;
+  --red: #db0000;
+  --pink: #fd6c6c;
+  --blue: #1a535c;
+}
+* {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "vazir";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black-dark);
+}
+p {
+  color: var(--black-light);
+}
+/*----------------------------- navbar ----------------- */
+.navbar {
+  background-color: var(--green-light);
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+a.nav-link {
+  margin: 0 1rem;
+  color: var(--blue) !important;
+}
+a.nav-link:hover {
+  color: var(--green-dark) !important;
+}
+.navbar-brand button {
+  border: none;
+  color: var(--white) !important;
+  background-color: var(--red);
+}
+.navbar-brand button:hover {
+  color: var(--white) !important;
+  background-color: var(--red);
+}
+.navbar-toggler {
+  outline: none !important;
+  color: var(--blue) !important;
+}
+/* --------------------------- banner and btn -------------------------------- */
+.banner {
+  margin-top: 10em;
+}
+.btn-danger {
+  background-color: var(--pink) !important;
+  border: none !important;
+}
+.btn-success {
+  background-color: var(--green-extra-dark) !important;
+  border: none !important;
+}
+/* --------------------------- cards -------------------------------- */
+.checked {
+  color: var(--yellow);
+}
+.title {
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--red);
+  color: var(--black-dark) !important;
+}
+.card {
+  margin: 1rem;
+}
+
+/* --------------------------- footer -------------------------------- */
+.social-media {
+  display: inline-block;
+}
+.social-media a {
+  padding: 0 1rem;
+  color: var(--green-dark);
+  font-size: 2.5rem;
+}
+.social-media a:hover {
+  color: var(--white);
+  transition: 0.75s all ease;
+}
+.footer {
+  margin-top: 10rem;
+  padding-top: 3rem;
+  background-color: var(--blue);
+}
+.footer p,
+h2,
+h6 {
+  color: var(--green-light) !important;
+}
+.copyright {
+  text-align: center;
+  border-top: 1px solid var(--black-light);
+}
+/*---------------------- media queries-------------- */
+@media only screen and (max-width: 720px) {
+  .banner {
+    display: none;
+  }
+
+  #cards {
+    padding-top: 2rem;
+  }
+}
