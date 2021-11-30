@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Shop</title>
+    <!-- css links -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
-
-<body>
+<body onload="popUp()">
     <header class="col-12">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -42,20 +47,19 @@
             </div>
         </nav>
     </header>
-    <h1></h1>
     <!-- banners -->
     <section class="container banner">
         <!-- carousel -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active img-fluid">
-                    <img src="img/banner-two.webp" class="d-block w-100" alt="banner">
+                <div class="carousel-item active">
+                    <img src="img/NEW-BANNER-1.png" class="d-block w-100" alt="banner">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner-three.webp" class="d-block w-100" alt="banner">
+                    <img src="img/NEW-BANNER-2.png" class="d-block w-100" alt="banner">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner-four.webp" class="d-block w-100" alt="banner">
+                    <img src="img/NEW-BANNER-3.png" class="d-block w-100" alt="banner">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -73,183 +77,178 @@
     <!-- handsfree cards -->
     <section class="container mt-5" id="cards">
         <div class="row">
-            <h2 class="title text-end mb-5 pb-3">هندزفری</h2>
-        <div class="row align-items-center justify-content-center">
-            <!-- card one  -->
-
-            <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 18.5rem;">
-                <div class="row mt-3">
-                    <div class="col-md-6 col-6 "><button class="btn btn-danger">پیشنهاد ویژه</button></div>
-                    <div class="col-md-6 col-6  starts">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                    </div>
-                </div>
-                <img src="img/headphones.jpg" class="card-img-top" alt="headphones">
-                <div class="card-body text-center">
-                    <h5 class="card-title">هدست گیمینگ وایرلس AWP</h5>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-4">
-                            <p class="card-text">۵۰۰,۰۰۰</p>
+            <h2 class="title text-end mb-5 pb-3">هدست گیمینگ</h2>
+            <div class="row align-items-center justify-content-center">
+                <!-- card one  -->
+                <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 18.5rem;">
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-6 "><button class="btn btn-danger">پیشنهاد ویژه</button></div>
+                        <div class="col-md-6 col-6  starts">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                         </div>
-                        <div class="col-md-8 col-sm-8 col-8">
-                            <div class="shoping-option">
-                                <div class="wrapper">
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-heart"></i>
+                    </div>
+                    <img src="img/headphones1.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">هدست گیمینگ وایرلس AWS 860 Blue </h5>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-4">
+                                <p class="card-text">۵۰۰,۰۰۰</p>
+                            </div>
+                            <div class="col-md-8 col-sm-8 col-8">
+                                <div class="shoping-option">
+                                    <div class="wrapper">
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                            <span>علاقه</span>
                                         </div>
-                                        <span>علاقه‌مندی</span>
-                                    </div>
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-shopping-cart"></i>
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                            <span>خرید</span>
                                         </div>
-                                        <span>خرید</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- card two  -->
-            <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 18.5rem;">
-                <div class="row mt-3">
-                    <div class="col-md-6 col-6"><button class="btn btn-danger">پیشنهاد ویژه</button></div>
-                    <div class="col-md-6 col-6 starts">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                    </div>
-                </div>
-                <img src="img/headphones.jpg" class="card-img-top" alt="headphones">
-                <div class="card-body text-center">
-                    <h5 class="card-title">هدست گیمینگ وایرلس AWP</h5>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-4">
-                            <p class="card-text ">۵۰۰,۰۰۰</p>
+                <!-- card two  -->
+                <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 18.5rem;">
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-6"><button class="btn btn-danger">پیشنهاد ویژه</button></div>
+                        <div class="col-md-6 col-6 starts">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                         </div>
-                        <div class="col-md-8 col-sm-8 col-8">
-                            <div class="shoping-option">
-                                <div class="wrapper">
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-heart"></i>
+                    </div>
+                    <img src="img/headphones2.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">هدست گیمینگ Sennheiser GSP 350</h5>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-4">
+                                <p class="card-text ">۵۰۰,۰۰۰</p>
+                            </div>
+                            <div class="col-md-8 col-sm-8 col-8">
+                                <div class="shoping-option">
+                                    <div class="wrapper">
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                            <span>علاقه</span>
                                         </div>
-                                        <span>علاقه‌مندی</span>
-                                    </div>
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-shopping-cart"></i>
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                            <span>خرید</span>
                                         </div>
-                                        <span>خرید</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- card three  -->
-            <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width:18.5rem;">
-                <div class="row mt-3">
-                    <div class="col-md-6 col-6 "><button class="btn btn-danger">پیشنهاد ویژه</button></div>
-                    <div class="col-md-6 col-6  starts">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                    </div>
-                </div>
-                <img src="img/headphones.jpg" class="card-img-top" alt="headphones">
-                <div class="card-body text-center">
-                    <h5 class="card-title">هدست گیمینگ وایرلس AWP</h5>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-4">
-                            <p class="card-text ">۵۰۰,۰۰۰</p>
+                <!-- card three  -->
+                <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width:18.5rem;">
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-6 "><button class="btn btn-danger">پیشنهاد ویژه</button></div>
+                        <div class="col-md-6 col-6  starts">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                         </div>
-                        <div class="col-md-8 col-sm-8 col-8">
-                            <div class="shoping-option">
-                                <div class="wrapper">
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-heart"></i>
+                    </div>
+                    <img src="img/headphones3.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">هدست گیمینگ Logitech G430 </h5>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-4">
+                                <p class="card-text ">۵۰۰,۰۰۰</p>
+                            </div>
+                            <div class="col-md-8 col-sm-8 col-8">
+                                <div class="shoping-option">
+                                    <div class="wrapper">
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                            <span>علاقه</span>
                                         </div>
-                                        <span>علاقه‌مندی</span>
-                                    </div>
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-shopping-cart"></i>
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                            <span>خرید</span>
                                         </div>
-                                        <span>خرید</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- card four  -->
-            <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width:18.5rem;">
-                <div class="row mt-3">
-                    <div class="col-md-6 col-6 "><button class="btn btn-danger">پیشنهاد ویژه</button></div>
-                    <div class="col-md-6 col-6  starts">
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                    </div>
-                </div>
-                <img src="img/headphones.jpg" class="card-img-top" alt="headphones">
-                <div class="card-body text-center">
-                    <h5 class="card-title">هدست گیمینگ وایرلس AWP</h5>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-4">
-                            <p class="card-text ">۵۰۰,۰۰۰</p>
+                <!-- card four  -->
+                <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width:18.5rem;">
+                    <div class="row mt-3">
+                        <div class="col-md-6 col-6 "><button class="btn btn-danger">پیشنهاد ویژه</button></div>
+                        <div class="col-md-6 col-6  starts">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
                         </div>
-                        <div class="col-md-8 col-sm-8 col-8">
-                            <div class="shoping-option">
-                                <div class="wrapper">
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-heart"></i>
+                    </div>
+                    <img src="img/headphones4.jpg" class="card-img-top" alt="headphones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">هدست گیمینگ Razer Kraken Green </h5>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 col-4">
+                                <p class="card-text ">۵۰۰,۰۰۰</p>
+                            </div>
+                            <div class="col-md-8 col-sm-8 col-8">
+                                <div class="shoping-option">
+                                    <div class="wrapper">
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-heart"></i>
+                                            </div>
+                                            <span>علاقه</span>
                                         </div>
-                                        <span>علاقه‌مندی</span>
-                                    </div>
-                                    <div class="button col-6">
-                                        <div class="icon">
-                                            <i class="fas fa-shopping-cart"></i>
+                                        <div class="button col-6">
+                                            <div class="icon">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </div>
+                                            <span>خرید</span>
                                         </div>
-                                        <span>خرید</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-
             </div>
         </div>
     </section>
-    <!-- powerbank cards -->
+    <!-- mouse cards -->
     <section class="container mt-5">
         <div class="row">
-            <h2 class="title text-end mb-5 pb-3">پاوربانک</h2>
+            <h2 class="title text-end mb-5 pb-3">ماوس گیمینگ</h2>
         </div>
         <div class="row align-items-center justify-content-center">
             <!-- card one  -->
-
             <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 18.5rem;">
                 <div class="row mt-3">
                     <div class="col-md-6 col-6"><button class="btn btn-danger">پیشنهاد ویژه</button></div>
@@ -261,9 +260,9 @@
                         <span class="fa fa-star checked"></span>
                     </div>
                 </div>
-                <img src="img/powerbank.webp" class="card-img-top" alt="powerbank">
+                <img src="img/mouse1.webp" class="card-img-top" alt="powerbank">
                 <div class="card-body text-center">
-                    <h5 class="card-title">پاوربانک Energize 5000 میلی آمپر</h5>
+                    <h5 class="card-title">موس گیمینگ ردراگون NOTHOSAUR M606</h5>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-4">
                             <p class="card-text ">۸۰۰،۰۰۰</p>
@@ -275,7 +274,7 @@
                                         <div class="icon">
                                             <i class="fas fa-heart"></i>
                                         </div>
-                                        <span>علاقه‌مندی</span>
+                                        <span>علاقه</span>
                                     </div>
                                     <div class="button col-6">
                                         <div class="icon">
@@ -301,9 +300,9 @@
                         <span class="fa fa-star checked"></span>
                     </div>
                 </div>
-                <img src="img/powerbank.webp" class="card-img-top" alt="powerbank">
+                <img src="img/mouse2.webp" class="card-img-top" alt="powerbank">
                 <div class="card-body text-center">
-                    <h5 class="card-title">پاوربانک Energize 5000 میلی آمپر</h5>
+                    <h5 class="card-title">موس گیمینگ ردراگون Perdiction M901-K-2</h5>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-4">
                             <p class="card-text ">۸۰۰،۰۰۰</p>
@@ -315,7 +314,7 @@
                                         <div class="icon">
                                             <i class="fas fa-heart"></i>
                                         </div>
-                                        <span>علاقه‌مندی</span>
+                                        <span>علاقه</span>
                                     </div>
                                     <div class="button col-6">
                                         <div class="icon">
@@ -341,9 +340,9 @@
                         <span class="fa fa-star checked"></span>
                     </div>
                 </div>
-                <img src="img/powerbank.webp" class="card-img-top" alt="powerbank">
+                <img src="img/mouse3.webp" class="card-img-top" alt="powerbank">
                 <div class="card-body text-center">
-                    <h5 class="card-title">پاوربانک Energize 5000 میلی آمپر</h5>
+                    <h5 class="card-title">موس گیمینگ ردراگون TITANOBOA 3 RGB</h5>
                     <div class="row mt-3">
                         <div class="col-md-4 col-sm-4 col-4">
                             <p class="card-text ">۸۰۰،۰۰۰</p>
@@ -355,7 +354,7 @@
                                         <div class="icon">
                                             <i class="fas fa-heart"></i>
                                         </div>
-                                        <span>علاقه‌مندی</span>
+                                        <span>علاقه</span>
                                     </div>
                                     <div class="button col-6">
                                         <div class="icon">
@@ -370,7 +369,6 @@
                 </div>
             </div>
             <!-- card four  -->
-
             <div class="card col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12" style="width: 18.5rem;">
                 <div class="row mt-3">
                     <div class="col-md-6 col-6"><button class="btn btn-danger">پیشنهاد ویژه</button></div>
@@ -382,9 +380,9 @@
                         <span class="fa fa-star checked"></span>
                     </div>
                 </div>
-                <img src="img/powerbank.webp" class="card-img-top" alt="powerbank">
+                <img src="img/mouse4.webp" class="card-img-top" alt="powerbank">
                 <div class="card-body text-center">
-                    <h5 class="card-title">پاوربانک Energize 5000 میلی آمپر</h5>
+                    <h5 class="card-title">موس گیمینگ ردراگون Storm Elite M988W</h5>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-4">
                             <p class="card-text ">۸۰۰،۰۰۰</p>
@@ -396,7 +394,7 @@
                                         <div class="icon">
                                             <i class="fas fa-heart"></i>
                                         </div>
-                                        <span>علاقه‌مندی</span>
+                                        <span>علاقه</span>
                                     </div>
                                     <div class="button col-6">
                                         <div class="icon">
@@ -439,14 +437,11 @@
         <div class="row copyright">
             <p>طراحی وبسایت توسط علی ربیعی</p>
         </div>
-        <!-- copyright -->
-        <!-- <div class="copyright d-flex">
-            <p>طراحی وبسایت توسط علی ربیعی</p>
-        </div> -->
     </footer>
     <!-- script files -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

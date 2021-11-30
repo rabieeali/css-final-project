@@ -58,11 +58,14 @@ a.nav-link:hover {
   color: var(--white) !important;
   background-color: var(--red);
 }
-
 /* --------------------------- banner and btn -------------------------------- */
 .banner {
   margin-top: 10em;
   cursor: pointer;
+}
+.carousel-item img {
+  width: 80%;
+  max-height: 60vh;
 }
 .btn-danger {
   background-color: var(--pink) !important;
@@ -90,9 +93,7 @@ a.nav-link:hover {
   max-width: 100%;
   font-weight: 900;
 }
-
 /*------------------------ shopping icons ------------------------------- */
-
 .shoping-option {
   display: flex;
   align-items: center;
@@ -125,21 +126,18 @@ a.nav-link:hover {
   color: var(--white);
   background-color: var(--green-extra-dark);
 }
-
 .wrapper .button .icon .fa-heart,
 .fa-shopping-cart {
   font-size: 1rem;
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
-
 .wrapper .button span {
   font-size: 1rem;
   transition: all 0.3s ease-out;
   color: var(--white);
   background-color: var(--green-extra-dark);
 }
-
 /* --------------------------- footer -------------------------------- */
 .social-media {
   display: inline-block;
@@ -163,27 +161,24 @@ h2,
 h6 {
   color: var(--green-light) !important;
 }
-.copyright{
+.copyright {
   justify-content: center;
   align-items: center;
   text-align: center;
   border-top: 1px solid var(--black-light);
 }
-.footer-wrapper{
-padding-bottom: 10rem;
+.footer-wrapper {
+  padding-bottom: 10rem;
 }
-
 /*---------------------- media queries-------------- */
 @media only screen and (max-width: 720px) {
-
   .banner {
     display: none;
   }
-
   #cards {
     padding-top: 2rem;
   }
-  .footer-wrapper{
+  .footer-wrapper {
     padding-bottom: 5rem;
-    }
+  }
 }
